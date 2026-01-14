@@ -1,0 +1,42 @@
+[
+  {
+    "instruction": "What is machine learning?",
+    "output": "Machine learning is a subset of artificial intelligence that enables computer systems to learn and improve from experience without being explicitly programmed. It focuses on developing algorithms that can access data and learn from it independently."
+  },
+  {
+    "instruction": "Explain the difference between supervised and unsupervised learning.",
+    "output": "Supervised learning uses labeled data where both input and output are provided during training, allowing the model to learn the relationship between them. Unsupervised learning works with unlabeled data, discovering patterns and structures within the data without predefined outputs."
+  },
+  {
+    "instruction": "What is a neural network?",
+    "output": "A neural network is a computational model inspired by biological neural networks in animal brains. It consists of interconnected nodes (neurons) organized in layers that process information through weighted connections, enabling the network to learn complex patterns in data."
+  },
+  {
+    "instruction": "How does deep learning differ from traditional machine learning?",
+    "output": "Deep learning uses neural networks with multiple hidden layers to automatically extract features from raw data, while traditional machine learning typically requires manual feature engineering. Deep learning excels at processing unstructured data like images and text."
+  },
+  {
+    "instruction": "What is natural language processing?",
+    "output": "Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language in a meaningful and useful way. It combines linguistics and machine learning techniques."
+  },
+  {
+    "instruction": "Explain the concept of overfitting.",
+    "output": "Overfitting occurs when a machine learning model learns the training data too well, including its noise and peculiarities, resulting in poor performance on new, unseen data. It happens when a model is too complex relative to the amount of training data available."
+  },
+  {
+    "instruction": "What is a convolutional neural network?",
+    "output": "A convolutional neural network (CNN) is a type of deep learning model designed for processing grid-like data, particularly images. It uses convolutional layers to automatically learn spatial hierarchies of features, making it highly effective for computer vision tasks."
+  },
+  {
+    "instruction": "Define transfer learning.",
+    "output": "Transfer learning is a machine learning technique where knowledge gained from training a model on one task is applied to improve learning on a different but related task. It allows leveraging pre-trained models to solve new problems with less data and computational resources."
+  },
+  {
+    "instruction": "What is backpropagation?",
+    "output": "Backpropagation is a fundamental algorithm for training neural networks. It calculates the gradient of the loss function with respect to each weight by applying the chain rule, then updates the weights in the direction that reduces the loss."
+  },
+  {
+    "instruction": "Explain the role of activation functions in neural networks.",
+    "output": "Activation functions introduce non-linearity to neural networks, enabling them to learn complex relationships in data. Common functions include ReLU, sigmoid, and tanh. Without activation functions, a neural network would be just a series of linear transformations."
+  }
+]
