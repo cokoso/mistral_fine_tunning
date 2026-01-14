@@ -1,0 +1,8 @@
+For fine-tuning Mistral LLM locally in a notebook in Azure AI Studio (for getting started)
+Compute Instance SKU: Standard_D4s_v3 or Standard_D8s_v3
+ - These offer good CPU/RAM balance if you're doing lighter fine-tuning or working with very small models
+
+For production scenario:
+If Standard_NC12s_v3 t's too expensive: Standard_NC6s_v3 can work for smaller experiments, though you may hit memory constraints with larger models or batch sizes.
+
+
