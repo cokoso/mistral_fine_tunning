@@ -1,0 +1,23 @@
+I've created a complete fine-tuning script for Mistral using transformers. Here are some key points:
+
+**Data Format:**
+Your CSV/JSON should have at minimum 'prompt' and 'response' columns. The script combines them into a 'text' field for training.
+
+**Key Adjustments for Your Setup:**
+- `per_device_train_batch_size=4` - Adjust lower if you get out-of-memory errors, higher if you have spare VRAM
+- `max_length=512` - Adjust based on your data's typical length
+- `learning_rate=2e-4` - Good starting point for fine-tuning; adjust if needed
+- `num_train_epochs=3` - Increase if you have small dataset, decrease if large
+
+**Memory Optimization:**
+- Uses `float16` for mixed precision training
+- `gradient_accumulation_steps=2` simulates a larger batch without needing more VRAM
+- `paged_adamw_8bit` optimizer is memory-efficient
+
+**Important Notes:**
+- Adjust `per_device_train_batch_size` based on your NC12s_v3 GPU's 12GB VRAM
+- The script automatically splits your data 80-20 for training/validation
+- Monitor GPU memory with `nvidia-smi` during training
+- Use `eval_steps` and `save_steps` to check progress without waiting for epoch completion
+
+Would you like me to adjust anything, such as handling instruction-response formatting differently, or adding LoRA (parameter-efficient fine-tuning) for even better memory efficiency?
