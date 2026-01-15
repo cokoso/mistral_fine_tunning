@@ -1,0 +1,75 @@
+Company: Green Company
+Procedure: Identification & Traceability of Products
+
+    1. SUMMARY
+        1.1. This procedure defines the methods used to identify and (where applicable) provide unique traceability for Green Company products. This procedure includes methods:
+            1.1.1. To define the methods for identifying products (what they are)
+            1.1.2. To define the methods for identifying products as to their current inspection or test status
+            1.1.3. To define the methods for segregating and discriminating between product and tooling when their appearance is similar
+            1.1.4. To define the methods for providing traceability, including unique serialization, or product as applicable
+        1.2. The Facility QA Director is responsible for implementation and management of this procedure.
+
+    2. REVISION AND APPROVAL
+Revision : 0.1
+Date : 01/01/2001
+Nature of Changes : Original issue.
+Approved By : Head QA Director
+
+    3. APPLICATION
+        3.1. This procedure applies to all departments which use, handle, transport, store, inspect or manufacture product, raw materials and tooling, at all Green Company facilities. 
+        3.2. This procedure not only applies to typical product, but also deliverables from services, such as reports, schedules, etc.
+        3.3. Non-critical materials or supplies, which are not incorporated into final product or which serve only to support facilities or operations, are not subject to this procedure.
+    4. DEFINITIONS
+        4.1. Product
+            4.1.1. “Product” includes any of the following:
+    • Any part, assembly or item ordered by the customer
+    • Deliverable reports or documents
+    • Product may refer to finished product, or work in process (WIP)
+        4.2. Raw Materials
+            4.2.1. “Raw materials” include any of the following:
+    • Any materials or items (metals, plastics, components, pre-built assemblies, small parts) which become part of the finished product’s physical construction; some of these items may sometimes be referred to as “consumables”.
+    • Coatings, paint, plating, adhesives, chemicals or materials which will be incorporated into (or onto) the final product.
+        4.3. Tooling
+            4.3.1.  “Tooling” can include any of the following:
+    • Devices used by manufacturing for setup or production, including fixtures and jigs.
+    • Devices used by inspection for determining acceptance of product, including test fixtures.
+    • Shop aids, which are simple devices (blocks, spacers, shapes) used to assist in production or development, but which are not precision tools and which can be used for a variety of applications.
+            4.3.2. Tooling does not include:
+    • Cutting tools, drill bits, etc.
+    • Hand tools
+    • Machining equipment
+    5. PRODUCT
+        5.1. There are many ways to identify product; this procedure presents the most typical, acceptable methods. Additional product identification methods may be called out in the design or production documentation. 
+        5.2. Identification typically includes the part number, revision, Work Order # and unique serial number (if applicable).
+        5.3. Identification is done through any of the following methods:
+            5.3.1. Part marking, by way of ink marking, etching or some other method.
+            5.3.2. Bag-and-tag methods, especially for small parts.
+            5.3.3. Placement of parts on shelves or in containers that are properly marked, with signage or other methods.
+            5.3.4. Placement of parts near associated paperwork, for the purpose of identification and traceability, may be used if the paperwork can clearly be identified as relating to the parts in question, typically by way of the inclusion of a drawing which can be compared to the product.
+            5.3.5. Segregating entire areas of the production floor with belt stanchions and attached signage, indicating what type of items are allowed, or disallowed, within the enclosed area. 
+        5.4. Where unique serialization is required for traceability, the parts shall be identified with a serial number in accordance with customer requirements, or in a manner developed to ensure that no two parts are given the same number. Serial number logs may be used to control this; work orders shall reference the serial numbers under which the unique parts were built.
+        5.5. All product may be assumed to be inspected and/or tested and found to be acceptable for use if identified in accordance with the rules above, unless it is marked as nonconforming product. For the methods of identifying nonconforming product, see procedure [Control of NCP Proc. Title].
+    6. RAW MATERIALS
+        6.1. Raw materials requiring traceability back to heat lot numbers, manufacturer lot or batch numbers, certificates of conformity or analysis, etc., must be marked in a way that provides this traceability. This is typically done by marking the raw materials with the Green Company purchase order number under which the items were purchased, and the supplier’s lot number.
+        6.2. When raw materials are used, any remaining material that will be returned to stock and used in the future must be re-identified before re-entry into inventory.
+        6.3. Raw materials which are determined to require identification and traceability, but which lack such identification, may not be used for flight hardware. These may be used for tooling stock or other non-product purposes.
+        6.4. All raw materials may be assumed to be inspected and/or tested and found to be acceptable for use if identified in accordance with the rules above, unless it is marked as nonconforming. For the methods of identifying nonconforming raw materials, see procedure [Control of NCP Proc. Title].
+    7. PRODUCTION TOOLING
+        7.1. Tooling used for production (fixtures, molds, jigs, setup devices, product supports or stands, etc.) shall be designed and built according to engineering data, and then validated to ensure the tool performs the intended function without risk or harm to product. Validation of tooling is typically done by using the tooling and inspecting the resulting parts to ensure the tooling results in parts that meet dimensional or other requirements.
+        7.2. Once validated and approved for use, the tool will be marked with a tooling ID number, which is typically the part number for which the tool is to be used.
+        7.3. Tools that produce production hardware or are used to accept hardware must undergo inspection before release. [QC or QA Preferred Term] must stamp or mark the tool as accepted before it can be used.
+        7.4. Shop aids for setup of production operations, supporting a part temporarily, or other simple or temporary use, may not require identification with a unique identifier. Instead, these must be identified as tooling by either marking the item itself as “TOOLING” (or similar language) or placement in an area, shelf, cabinet or other container that is properly marked as “TOOLING” or “SHOP AIDS”(or similar language). The marking must allow tooling to clearly be distinguished from raw material or product (whether flight or development).
+        7.5. Tooling used for lifting shall be proof load tested and include an upper load lift limit, as required by regulations. 
+        7.6. Tooling found to be nonconforming shall be tagged to prevent use until fixed, repaired or deemed acceptable. Segregation of nonfonconforming tooling from the production area should be performed when possible. 
+        7.7. When approved tooling undergoes modification, the identification must be updated to reflect the change; this is typically done by editing or re-marking the item with the latest revision of the engineering part number.
+    8. SERVICE DELIVERABLES 
+        8.1. Service deliverables, such as reports and schedules, shall be identified with a title and, if applicable, reference to the project or contract under which they are developed. 
+        8.2. Customer contracts may indicate additional methods for identification of service deliverables. 
+        8.3. In all cases, the deliverable will be identified in a way that makes it clearly understood for which contract or project the deliverable is subject to.
+        8.4. As required, service deliverables may be subject to date and revision control, to distinguish earlier versions or submittals.
+    9. STAMP CONTROL 
+        9.1. Quality stamps or employee initials are used to indicate product acceptance or for other quality-related notations. Individual authorities for signing off for inspection, testing and operations are defined on the Stamp & Signature Control Log; this log is maintained to identify the owner of each stamp. 
+        9.2. The Facility Director shall maintain the Stamp and Signature Control Log.
+        9.3. Stamps are numbered, and taken out of service for six months after an employee leaves the company; after the six-month period, the stamp may be reissued to a different employee. 
+        9.4. No employee may use any stamp except that which was issued to them.
+

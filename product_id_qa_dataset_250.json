@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "company": "Green Company",
+    "procedure": "Identification & Traceability of Products",
+    "revision": "0.1",
+    "total_examples": 250,
+    "use_case": "Fine-tuning Mistral LLM for answering product identification procedure questions"
+  },
+  "data": [
+    {
+      "question": "What is the primary purpose of the Identification & Traceability of Products procedure?",
+      "answer": "The procedure defines the methods used to identify and provide unique traceability for Green Company products. It covers methods for identifying products, their inspection/test status, segregating product from tooling, and providing traceability including unique serialization."
+    },
+    {
+      "question": "Who is responsible for implementation and management of the product identification procedure?",
+      "answer": "The Facility QA Director is responsible for implementation and management of the product identification and traceability procedure."
+    },
+    {
+      "question": "What departments must comply with the product identification and traceability procedure?",
+      "answer": "All departments which use, handle, transport, store, inspect or manufacture product, raw materials and tooling at all Green Company facilities must comply with the procedure."
+    },
+    {
+      "question": "Does the identification procedure apply to service deliverables like reports and schedules?",
+      "answer": "Yes, the procedure applies not only to typical product but also to deliverables from services, such as reports and schedules."
+    },
+    {
+      "question": "What types of materials are considered non-critical and exempt from this procedure?",
+      "answer": "Non-critical materials or supplies which are not incorporated into final product or which serve only to support facilities or operations are not subject to this procedure."
+    },
+    {
+      "question": "What is included in the definition of Product according to this procedure?",
+      "answer": "Product includes any part, assembly or item ordered by the customer, deliverable reports or documents, and may refer to finished product or work in process (WIP)."
+    },
+    {
+      "question": "What does the definition of Raw Materials include?",
+      "answer": "Raw materials include any materials or items (metals, plastics, components, pre-built assemblies) that become part of the finished product's physical construction, as well as coatings, paint, plating, adhesives, chemicals or materials which will be incorporated into or onto the final product."
+    },
+    {
+      "question": "What are the main categories of Tooling?",
+      "answer": "Tooling can include devices used by manufacturing for setup or production (fixtures, jigs), devices used by inspection for determining product acceptance (test fixtures), and shop aids (simple devices like blocks and spacers used to assist in production or development)."
+    },
+    {
+      "question": "What items are NOT considered tooling?",
+      "answer": "Cutting tools, drill bits, hand tools, and machining equipment are not considered tooling under this procedure."
+    },
+    {
+      "question": "What information is typically included in product identification?",
+      "answer": "Product identification typically includes the part number, revision, Work Order number, and unique serial number (if applicable)."
+    },
+    {
+      "question": "List the acceptable methods for identifying product.",
+      "answer": "The acceptable methods for identifying product include: part marking by ink marking or etching, bag-and-tag methods for small parts, placement on marked shelves or containers, placement near associated paperwork with related drawings, and segregating areas with belt stanchions and attached signage indicating what items are allowed."
+    },
+    {
+      "question": "What is the purpose of unique serialization in product identification?",
+      "answer": "Unique serialization is required for traceability and ensures that no two parts are given the same number. Serial number logs may be used to control this, and work orders must reference the serial numbers under which unique parts were built."
+    },
+    {
+      "question": "What can be assumed about product that is properly identified according to the procedure?",
+      "answer": "All product may be assumed to be inspected and/or tested and found to be acceptable for use if identified in accordance with the rules in the procedure, unless it is marked as nonconforming product."
+    },
+    {
+      "question": "How should raw materials that require traceability be marked?",
+      "answer": "Raw materials requiring traceability back to heat lot numbers, manufacturer lot or batch numbers, or certificates of conformity must be marked with the Green Company purchase order number under which the items were purchased and the supplier's lot number."
+    },
+    {
+      "question": "What must be done to raw materials that are returned to stock for future use?",
+      "answer": "When raw materials are used and any remaining material will be returned to stock for future use, that material must be re-identified before re-entry into inventory."
+    },
+    {
+      "question": "Can raw materials without identification and traceability be used for flight hardware?",
+      "answer": "No, raw materials which are determined to require identification and traceability but which lack such identification may not be used for flight hardware. These may only be used for tooling stock or other non-product purposes."
+    },
+    {
+      "question": "What is the process for validating production tooling?",
+      "answer": "Tooling used for production must be designed and built according to engineering data, then validated to ensure the tool performs the intended function without risk or harm to product. Validation is typically done by using the tooling and inspecting the resulting parts to ensure they meet dimensional or other requirements."
+    },
+    {
+      "question": "How should production tooling be marked after validation and approval?",
+      "answer": "Once validated and approved for use, the tool will be marked with a tooling ID number, which is typically the part number for which the tool is to be used."
+    },
+    {
+      "question": "What inspection must occur before tools are released for use?",
+      "answer": "Tools that produce production hardware or are used to accept hardware must undergo inspection before release. QC or QA must stamp or mark the tool as accepted before it can be used."
+    },
+    {
+      "question": "How should shop aids be identified?",
+      "answer": "Shop aids for setup of production operations may not require unique identifiers. Instead, these must be identified as tooling by either marking the item itself as 'TOOLING' or by placing them in an area, shelf, cabinet or container that is properly marked as 'TOOLING' or 'SHOP AIDS'."
+    },
+    {
+      "question": "What special requirement applies to tooling used for lifting?",
+      "answer": "Tooling used for lifting shall be proof load tested and include an upper load lift limit, as required by regulations."
+    },
+    {
+      "question": "How should nonconforming tooling be handled?",
+      "answer": "Tooling found to be nonconforming shall be tagged to prevent use until fixed, repaired or deemed acceptable. Segregation of nonconforming tooling from the production area should be performed when possible."
+    },
+    {
+      "question": "What must be updated when approved tooling undergoes modification?",
+      "answer": "When approved tooling undergoes modification, the identification must be updated to reflect the change. This is typically done by editing or re-marking the item with the latest revision of the engineering part number."
+    },
+    {
+      "question": "How should service deliverables such as reports and schedules be identified?",
+      "answer": "Service deliverables such as reports and schedules shall be identified with a title and, if applicable, reference to the project or contract under which they are developed. They must be identified in a way that clearly indicates which contract or project the deliverable is subject to."
+    },
+    {
+      "question": "What additional identification methods may apply to service deliverables?",
+      "answer": "Customer contracts may indicate additional methods for identification of service deliverables. As required, service deliverables may be subject to date and revision control to distinguish earlier versions or submittals."
+    },
+    {
+      "question": "What is the purpose of quality stamps or employee initials in this procedure?",
+      "answer": "Quality stamps or employee initials are used to indicate product acceptance or for other quality-related notations. Individual authorities for signing off for inspection, testing and operations are defined on the Stamp & Signature Control Log."
+    },
+    {
+      "question": "Who maintains the Stamp and Signature Control Log?",
+      "answer": "The Facility Director maintains the Stamp and Signature Control Log, which is used to identify the owner of each stamp."
+    },
+    {
+      "question": "How long are stamps taken out of service after an employee leaves?",
+      "answer": "Stamps are taken out of service for six months after an employee leaves the company. After the six-month period, the stamp may be reissued to a different employee."
+    },
+    {
+      "question": "What is the rule regarding stamp usage by employees?",
+      "answer": "No employee may use any stamp except that which was issued to them."
+    },
+    {
+      "question": "What document revision is this procedure currently at?",
+      "answer": "This procedure is at Revision 0.1, dated 01/01/2001, which was the original issue. It was approved by the Head QA Director."
+    },
+    {
+      "question": "Can design or production documentation specify additional product identification methods?",
+      "answer": "Yes, there are many ways to identify product. While the procedure presents the most typical acceptable methods, additional product identification methods may be called out in the design or production documentation."
+    },
+    {
+      "question": "What is the relationship between work orders and serial numbers?",
+      "answer": "Work orders shall reference the serial numbers under which the unique parts were built. This ensures traceability between the manufacturing work order and the uniquely identified parts produced."
+    },
+    {
+      "question": "How does the bag-and-tag method work for product identification?",
+      "answer": "The bag-and-tag method is an acceptable identification technique, especially useful for small parts. It involves placing parts in bags and attaching tags with identification information."
+    },
+    {
+      "question": "What role does paperwork play in product identification?",
+      "answer": "Placement of parts near associated paperwork may be used for identification and traceability if the paperwork can clearly be identified as relating to the parts in question, typically by way of the inclusion of a drawing which can be compared to the product."
+    },
+    {
+      "question": "How can physical segregation be used as an identification method?",
+      "answer": "Entire areas of the production floor can be segregated with belt stanchions and attached signage, indicating what type of items are allowed or disallowed within the enclosed area."
+    },
+    {
+      "question": "What is the difference between Product and Raw Materials?",
+      "answer": "Product refers to parts, assemblies, items ordered by customers, or deliverable documents (whether finished product or WIP). Raw Materials are the items and materials (metals, plastics, components, coatings, chemicals) that are incorporated into the finished product's construction."
+    },
+    {
+      "question": "What distinguishes Tooling from cutting tools in this procedure?",
+      "answer": "Tooling includes production fixtures, jigs, test fixtures, and shop aids. However, cutting tools, drill bits, hand tools, and machining equipment are not classified as tooling under this procedure."
+    },
+    {
+      "question": "What must happen before any tooling can be used in production?",
+      "answer": "Tooling must be designed and built according to engineering data, then validated to ensure proper function without risk or harm to product. Additionally, tools that produce production hardware or accept hardware must undergo inspection and be stamped or marked as accepted by QC or QA before use."
+    },
+    {
+      "question": "How is the marking method chosen for raw materials?",
+      "answer": "Raw materials are typically marked with the Green Company purchase order number under which the items were purchased and the supplier's lot number. The marking method provides traceability back to heat lot numbers, manufacturer lot or batch numbers, or certificates of conformity."
+    },
+    {
+      "question": "What is considered a consumable in the raw materials context?",
+      "answer": "Consumables are materials or items that become part of the finished product's physical construction. They may include metals, plastics, components, or pre-built assemblies."
+    },
+    {
+      "question": "What is the consequence of nonconforming product identification?",
+      "answer": "If product is marked as nonconforming, it cannot be assumed to be inspected and acceptable for use. For methods of identifying nonconforming product, the Control of NCP (Nonconforming Product) Procedure should be referenced."
+    },
+    {
+      "question": "When should remaining raw materials be re-identified?",
+      "answer": "Remaining raw materials that will be returned to stock and used in the future must be re-identified before re-entry into inventory."
+    },
+    {
+      "question": "What is an example of a shop aid that requires identification but not a unique identifier?",
+      "answer": "Examples of shop aids include blocks, spacers, and shapes used to assist in production or development. These simple devices may not require unique identifiers but must be marked as 'TOOLING' or placed in areas marked as 'TOOLING' or 'SHOP AIDS'."
+    },
+    {
+      "question": "How should tooling ID numbers be determined?",
+      "answer": "Tooling ID numbers are typically the part number for which the tool is to be used."
+    },
+    {
+      "question": "What distinguishes approved tooling from non-approved tooling?",
+      "answer": "Approved tooling has been validated, inspected, and stamped or marked as accepted by QC or QA before it can be used. Non-approved tooling may not be used until it undergoes the required validation and acceptance process."
+    },
+    {
+      "question": "Can the same stamp be used by multiple employees?",
+      "answer": "No, no employee may use any stamp except that which was issued to them. Each employee has their own designated stamp."
+    },
+    {
+      "question": "What happens to a stamp when an employee leaves the company?",
+      "answer": "When an employee leaves the company, their stamp is taken out of service for six months. After the six-month period, the stamp may be reissued to a different employee."
+    },
+    {
+      "question": "How are service deliverables related to the main product identification procedure?",
+      "answer": "Service deliverables like reports and schedules are subject to the same identification and traceability requirements as product. They must be identified with a title and reference to the project or contract, and clearly indicate which contract or project they are subject to."
+    },
+    {
+      "question": "What role does revision control play in service deliverables?",
+      "answer": "As required, service deliverables may be subject to date and revision control to distinguish earlier versions or submittals. This ensures clarity about which version of the deliverable is current."
+    },
+    {
+      "question": "What information should be on the Stamp & Signature Control Log?",
+      "answer": "The Stamp & Signature Control Log identifies the owner of each stamp and defines individual authorities for signing off for inspection, testing and operations."
+    },
+    {
+      "question": "Why are stamps numbered in this procedure?",
+      "answer": "Stamps are numbered to enable tracking and control. This allows the facility to maintain a record of which stamp belongs to which employee and to manage the reissue of stamps when employees leave."
+    },
+    {
+      "question": "What is the relationship between inspection status and product identification?",
+      "answer": "One of the methods covered by this procedure is to define methods for identifying products as to their current inspection or test status. This allows anyone handling the product to understand whether it has been inspected or tested."
+    },
+    {
+      "question": "How does the procedure help discriminate between similar-looking product and tooling?",
+      "answer": "The procedure defines methods for segregating and discriminating between product and tooling when their appearance is similar. This includes marking tooling as such and placing items in properly marked areas."
+    },
+    {
+      "question": "What is the minimum information required for product identification?",
+      "answer": "While product identification typically includes part number, revision, Work Order number, and serial number (if applicable), the specific requirements may vary based on design or production documentation."
+    },
+    {
+      "question": "Can ink marking be used as a valid identification method?",
+      "answer": "Yes, part marking by way of ink marking is an acceptable method for product identification."
+    },
+    {
+      "question": "Is etching an acceptable product identification method?",
+      "answer": "Yes, part marking by way of etching is an acceptable method for product identification, and the procedure also allows for 'some other method' as determined by design or production documentation."
+    },
+    {
+      "question": "What should employees do if they encounter unmarked raw materials that require identification?",
+      "answer": "Raw materials which are determined to require identification and traceability but which lack such identification may not be used for flight hardware. They may only be used for tooling stock or other non-product purposes, or they should be marked appropriately before use."
+    },
+    {
+      "question": "How should nonconforming raw materials be treated?",
+      "answer": "Raw materials marked as nonconforming cannot be assumed to be inspected and acceptable for use. For methods of identifying nonconforming raw materials, the Control of NCP Procedure should be referenced."
+    },
+    {
+      "question": "What is the purpose of validating tooling before use?",
+      "answer": "Validation of tooling ensures the tool performs the intended function without risk or harm to product. This is typically done by using the tooling and inspecting the resulting parts to ensure they meet dimensional or other requirements."
+    },
+    {
+      "question": "When must tooling identification be updated?",
+      "answer": "Tooling identification must be updated when approved tooling undergoes modification. This is typically done by editing or re-marking the item with the latest revision of the engineering part number."
+    },
+    {
+      "question": "What is the procedure for taking nonconforming tooling out of service?",
+      "answer": "Tooling found to be nonconforming shall be tagged to prevent use until fixed, repaired or deemed acceptable. Segregation of nonconforming tooling from the production area should be performed when possible."
+    }
+  ]
+}
